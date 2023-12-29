@@ -1,6 +1,172 @@
 /* Show it is fixed to the top */
-body {
-    min-height: 75rem;
-    padding-top: 4.5rem;
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;500;700;900&display=swap');
+
+
+body{
+  font-family: 'Roboto', sans-serif; 
+}
+/* #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}  */
+
+.headline-text{
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.ContactBtn {
+  width: 200px;
+  background-color: #E1E1E1;
+  padding: 25px 0px;
+  text-align: center;
+  border-radius: 50px 0 0 50px; 
+  color: #333333 !important;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* .ContactBtn:hover {
+  background-color: #FFAB35;
+  color: #FFF !important;
+} */
+
+.SignInBtn{
+  width: 220px;
+  background-color: #35158F;
+  padding: 14px 0;
+  text-align: center;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.SignUpBtn{
+  width: 220px;
+  background:none;
+  border: 2px solid #FFF;
+  padding: 14px 0;
+  text-align: center;
+  border-radius: 50px;
+  text-decoration: none;
+}
+.SignInBtn:hover{
+  background-color: #16024F;
+}
+
+.SignUpBtn:hover{
+  background-color: #16024F;
+  border: 2px solid #16024F;
+}
+
+.AuthBtn{
+  display: flex;
+  gap: 10px;
+}
+
+.auth-btn {
+  background: #FFF;
+  width: 300px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: #222222;
+  margin: 10px 0; 
+  padding: 12px 0px;
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.auth-btn:hover{
+	text-decoration: none;
+  background: #ffce54;
+  color: #FFF;
+}
+
+/*==================*/
+/* POP
+/*==================*/
+
+@-webkit-keyframes pop-on-hover {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
   }
-  
+}
+@keyframes pop-on-hover {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.pop-on-hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.pop-on-hover:hover, .pop-on-hover:focus, .pop-on-hover:active {
+  -webkit-animation-name: pop-on-hover;
+  animation-name: pop-on-hover;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .headline-text{
+    font-size: 40px;
+  }
+  .paragraph-text{
+    font-size: 16px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .headline-text{
+    font-size: 50px;
+}
+.paragraph-text{
+  font-size: 18px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .headline-text{
+    font-size: 70px;
+}
+.paragraph-text{
+  font-size: 24px;
+}
+}
+
+@media only screen and (min-width: 992px) {
+  .headline-text{
+    font-size: 100px;
+}
+.paragraph-text{
+  font-size: 26px;
+}
+} 
+
+

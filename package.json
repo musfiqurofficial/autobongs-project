@@ -16,6 +16,7 @@
     "express-validator": "^6.6.1",
     "inquirer": "^7.3.3",
     "mysql2": "^2.1.0",
+    "nodemon": "^3.0.2",
     "passport": "^0.4.1",
     "passport-facebook": "^3.0.0",
     "passport-google-oauth20": "^2.0.0",
@@ -26,7 +27,7 @@
     "sequelize-cli": "^6.2.0"
   },
   "scripts": {
-    "start": "npm run dev",
+    "start": "nodemon App.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

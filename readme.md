@@ -1,4 +1,4 @@
-# NodeJS Social Auth Example
+# AUTOBONGS
 
 This project is sample application that demonstrates authorization using email, google and facebook in NodeJS web application.
 
@@ -15,10 +15,6 @@ DB_USER=root
 DB_PASS=
 DB_NAME=test_nodejs_auth
 ```
-Please also update google and facebook api keys, with valid ones:
-```
-FACEBOOK_APP_ID=your_fb_app_id
-FACEBOOK_APP_SECRET=your_fb_app_secret
 
 GOOGLE_CLIENT_ID=your_google_client_id
 GOOGLE_CLIENT_SECRET=your_google_client_secret

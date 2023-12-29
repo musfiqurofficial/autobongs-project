@@ -9,6 +9,8 @@ const passportConfig = require('./config/passport')(passport);
 const flash = require('express-flash-messages');
 const app = express();
 
+app.use(express.static('public'));
+
 const { getHomePage } = require('./routes/index');
 const { handleLogout, postLogin, getLogin } = require('./routes/login');
 const { getFacebookLogin, handleFacebookLogin } = require('./routes/facebook_login');
